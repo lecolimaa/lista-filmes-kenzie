@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
     <title>Kenzie Filmes</title>
 </head>
 <body>
     <header>
+        <div class="container">
         <figure>
             <img src="/img/logo.png" alt="Kenzie Filmes">
             <figcaption>Kenzie Filmes</figcaption>
@@ -26,13 +33,14 @@
                 </li>
             </ul>
         </nav>
+    </div>
     </header>
     
-    <main>
+    <main class="container">
         <section>
         <p> KENZIE FILMES- FILMES ONLINE - FILMES GRATIS - FILMES ONLINE GRATIS       
         </p>
-        <ul>
+        <ul class="secaoCategorias">
             <li>
                 <a href="">Mostrar todos</a>
             </li>
@@ -53,12 +61,12 @@
             </li>
         </ul>
 
-        <div>
-            <input type="text" placeholder="Buscar Filme">
+        <div class="inputPesquisar">
+            <input  type="text" placeholder="Buscar Filme">
             <button>Pesquisar</button>
         </div>
 
-        <ul>
+        <ul class="listaFilme">
             <li>
                 <figure>
                     <img src="/img/image (1).png" alt="A Filha do Rei">
